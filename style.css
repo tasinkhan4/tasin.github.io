@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header::before{
+    background: url(/backgrounimage/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.5;
+}
+.formheader::before{
+    background: url(/backgrounimage/monitor-g8c3174d7e_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+
+    
+}
+.header{
+    height: 750px;
+
+    position: relative;
+
+}
+.formheader{
+    height: 100vh;
+    position: relative;
+}
+.header header{
+    font-size: 3rem;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+
+}
+.formheader header{
+    font-size: 3rem;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+
+}
+.logo{
+    padding: 1px 30px;
+    
+}
+.logo img{
+    width:110px;
+}
+.container{
+    margin-top: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container header{
+    
+    font-size: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container p{
+    font-size: 1.4rem;
+    padding: 0 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    border: 4px solid black;
+    height: 400px;
+    width:1100px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+ 
+}
+.btn{
+    font-size: 1rem;
+    background-color: brown;
+    color: white;
+    padding: 4px;
+    width: 110px;
+    margin-top: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.courses header{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.box1{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightblue;
+
+}
+.box2{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+        background-color: lightblue;
+    
+}
+.box3{
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+        background-color: lightblue;
+    color: whit
+
+}
+.box4{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+        background-color: lightblue;
+
+}
+.box5{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+        background-color: lightblue;
+    
+}
+.box6{
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+        background-color: lightblue;
+
+
+}
+.lev1{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.courses h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    
+}
+.courses ul li{
+    font-size: 1.6rem;
+    padding: 10px 0;
+    font-weight: bolder;
+
+}
+.courses ul{
+    margin: auto;
+    width: fit-content;
+
+    
+}
+.courses .enroll{
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 200px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: 5px 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.267);
+    color: whitse;
+}
+.courses .enroll:hover{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: 2px solid black;
+}
+.lev1 img{
+    width: 380px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 8px auto;
+    display: block;
+}
+
+.form .name{
+    display: flex;
+    flex-direction: row;
+}
+.formcontainer{
+    margin-top: 30px;
+
+    flex-direction: column;
+    display: flex;
+
+    border: 4px solid black;
+    height: 300px;
+    width:1100px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    
+
+}
+.form{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+}
+.form input{
+    font-size: 1.2rem;
+    flex-direction: column;
+    border: 4px solid black;
+    border-radius: 10px;
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.gmail{
+    margin: auto;
+    width: fit-content; 
+    margin: 10px auto;
+    text-align: center;
+}
+.phonenumber{
+    margin: auto;
+    width: fit-content;
+    margin: 10px auto;
+    text-align: center;
+}
+.phonenumber input{
+    margin: 7px auto;
+    width: fit-content;
+    display: block;
+}
+
+.gmail input{
+    margin-top: 10px;
+}
+.submit{
+    width: fit-content;
+    margin: auto;
+    padding: 2px 7px;
+    cursor: pointer;
+    
+}
+.form h1{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
